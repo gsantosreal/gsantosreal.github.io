@@ -1,0 +1,19 @@
+header {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("images/santo-domingo.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100%;
+}
+h1 {
+    color: white;
+    font-size: 70px;
+}
+li {
+    color: white;
+    font-size: 50px;
+    display: inline;
+}
