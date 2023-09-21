@@ -2,7 +2,9 @@ header {
     text-align: center;
     margin: 0px;
     padding: 0px;
-    background-image: url("images/santo-domingo.png");
+    background: linear-gradient(bottom, rgba(153, 94, 179, 1), rgba(0, 111, 89, 1));
+    background: -webkit-linear-gradient(bottom, rgba(153, 94, 179, 1), rgba(0, 111, 89, 1));
+    background: -moz-linear-gradient(bottom, rgba(153, 94, 179, 1), rgba(0, 111, 89, 1));
     background-size: auto;
     background-repeat: no-repeat;
     background-position: top center;
