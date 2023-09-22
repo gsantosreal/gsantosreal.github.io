@@ -16,10 +16,12 @@ img {
     border-radius: 20px;
 }
 h1 {
+    font-family: 'Poppins', sans-serif;
     color: white;
     font-size: 70px;
 }
 h2 {
+    font-family: 'Josefin Sans', sans-serif;
     color: whitesmoke;
     font-size: 30px;
 }
@@ -30,7 +32,9 @@ ul {
     color:white;
 }
 li {
+    font-family: 'Exo 2', sans-serif;
     color: white;
-    font-size: 50px;
+    font-size: 30px;
     display: inline;
+    margin: 0 40px 0 40px;
 }
