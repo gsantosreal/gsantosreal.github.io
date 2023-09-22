@@ -1,3 +1,6 @@
+body {
+    background-color: black;
+}
 header {
     text-align: center;
     margin: 0px;
@@ -29,6 +32,7 @@ a {
     color: white;
 }
 ul {
+    margin-top: 20px;
     color:white;
 }
 li {
@@ -37,4 +41,10 @@ li {
     font-size: 30px;
     display: inline;
     margin: 0 40px 0 40px;
+}
+.About_Me {
+    background-color: gray;
+}
+.Extracurriculars {
+    background-color: gray;
 }
