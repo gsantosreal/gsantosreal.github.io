@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: whitesmoke;
 }
 header {
     text-align: center;
@@ -14,9 +14,8 @@ header {
     background-size: 100%;
 }
 img {
-    margin: 40px 0px 0px 0px;
-    border: 7px solid white;
-    border-radius: 20px;
+    margin: 40px 1500px 0px 0px;
+    border: 2px solid black;
 }
 h1 {
     font-family: 'Poppins', sans-serif;
@@ -47,4 +46,7 @@ li {
 }
 .Extracurriculars {
     background-color: gray;
+}
+p {
+    color: white;
 }
