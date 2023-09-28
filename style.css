@@ -3,7 +3,14 @@ body {
 }
 
 .navbar {
-    color: black;
+    font-size: 14px;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.navbar a {
+    padding-left: 20px;
 }
 
 .header {
@@ -43,20 +50,6 @@ h2 {
 
 a {
     color: white;
-}
-
-ul {
-    text-align: center;
-    margin-top: 20px;
-    color:white;
-}
-
-li {
-    font-family: 'Exo 2', sans-serif;
-    color: white;
-    font-size: 30px;
-    display: inline;
-    margin: 0 40px 0 40px;
 }
 
 .About_Me {
