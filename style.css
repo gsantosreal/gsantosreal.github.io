@@ -1,5 +1,7 @@
 /* Body */
 body {
+    padding: 0px;
+    margin: 0px;
     background-color: whitesmoke;
 }
 
@@ -36,7 +38,7 @@ body {
     background: linear-gradient(bottom, rgba(153, 94, 179, 1), rgba(0, 111, 89, 1));
     background: -webkit-linear-gradient(bottom, rgba(153, 94, 179, 1), rgba(0, 111, 89, 1));
     background: -moz-linear-gradient(bottom, rgba(153, 94, 179, 1), rgba(0, 111, 89, 1));
-    background-size: 100%;
+    background-size: 200%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,12 +46,12 @@ body {
 
 .image {
     margin: 0px 200px 0px 0px;
-    border: 2px solid black;
+    border: 1px solid black;
 }
 
 .caption {
     text-align: center;
-    margin: 0px 0px 900px 0px;
+    margin: 0px 0px 0px 0px;
 
 }
 
