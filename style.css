@@ -6,17 +6,15 @@ body {
     height: 100%;
     overflow-x: hidden;
     scroll-behavior: smooth;
-    background: rgb(119, 143, 145);
+    background: rgb(162, 168, 168);
 }
 
 /* Navigation Bar */
 .navbar {
-    font-size: 16px;
-    background-color: black;
+    font-size: 1vw;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
-    width: 100%;
     font-family: 'Rubik', sans-serif;
     font-weight: bold;
 }
@@ -24,8 +22,11 @@ body {
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 3px;
+    margin-left: 5px;
     text-decoration: none;
     cursor: pointer;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
 }
 .navbar a:hover {
     border-left-width: 1px;
@@ -52,31 +53,19 @@ body {
 }
 
 .caption h1 {
-    font-family: 'Poppins', sans-serif;
-    color: rgb(28, 16, 197);
+    font-family: 'Kanit', sans-serif;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 4vw;
 }
 
 .caption h2 {
-    font-family: 'Josefin Sans', sans-serif;
-    color: rgb(28, 16, 197);
-    font-weight: bold;
+    font-family: 'Kanit', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
     font-size: 2vw;
 }
 
 a {
-    color: white;
-}
-
-.About_Me {
-    background-color: gray;
-}
-
-.Extracurriculars {
-    background-color: gray;
-}
-
-p {
     color: white;
 }
