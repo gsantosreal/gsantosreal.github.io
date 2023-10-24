@@ -14,7 +14,7 @@ body {
     font-size: 1vw;
     padding-top: 10px;
     padding-bottom: 10px;
-    text-align: center;
+    display: inline;
     font-family: 'Rubik', sans-serif;
     font-weight: bold;
 }
@@ -29,6 +29,15 @@ body {
     border-bottom-width: 1px;
     border-bottom-style: dotted;
 }
+.navbar .head a {
+    text-align: left;
+}
+.navbar .head a img {
+    border: 3px solid white;
+    border-radius: 360px;
+    width: 2%;
+}
+
 .navbar a:hover {
     border-left-width: 1px;
     border-left-style: dotted;
@@ -62,12 +71,6 @@ body {
     margin-left: 45%;
     margin-right: 10%;
     margin-top: 10%;
-}
-
-.header .caption img {
-    border: 3px solid white;
-    border-radius: 360px;
-    width: 10%;
 }
 
 .header .caption h1 {
