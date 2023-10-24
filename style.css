@@ -89,6 +89,8 @@ body {
 }
 .header .caption a img {
     width: 4%;
+    border: none;
+    border-radius: 0px;
 }
 
 /* About Me Page CSS */
