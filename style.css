@@ -65,8 +65,9 @@ body {
 }
 
 .header .caption img {
-    border: 5px solid white;
+    border: 3px solid white;
     border-radius: 360px;
+    width: 10%;
 }
 
 .header .caption h1 {
