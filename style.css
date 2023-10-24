@@ -64,6 +64,11 @@ body {
     margin-top: 10%;
 }
 
+.header .caption img {
+    border: 5px solid white;
+    border-radius: 360px;
+}
+
 .header .caption h1 {
     font-family: 'Kanit', sans-serif;
     color: rgb(255, 255, 255);
