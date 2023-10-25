@@ -11,12 +11,8 @@ body {
 
 /* Navigation Bar */
 .navbar {
-    font-size: 1vw;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display: inline;
-    font-family: 'Rubik', sans-serif;
-    font-weight: bold;
+    display: flex;
+    flex-direction: row;
 }
 .navbar a {
     color: white;
