@@ -10,18 +10,27 @@ body {
 }
 h1 {
     color: white;
+    font-size: 36px;
 }
 h2 {
     color: white;
+    font-size: 36px;
 }
 h3 {
     color: white;
+    font-size: 18px;
 }
 h4 {
     color: white;
+    font-size: 18px;
 }
 h5 {
     color: white;
+    font-size: 16px;
+}
+h6 {
+    color: white;
+    font-size: 14px;
 }
 
 /* Navigation Bar */
