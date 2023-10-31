@@ -37,14 +37,27 @@ h6 {
 .navbar {
     display: flex;
     flex-direction: row;
+    line-height: 3em;
 }
 .navbar a img {
     height: 3em;
-    width: 3em;
+    display: inline;
+    /* width: 3em; */
     border: 2px solid white;
+    margin-right: 1vw;
 }
-.navbar .name {
-    font-size: 1.2vw;
+.name {
+    display: inline;
+    font-size: 200%;
+}
+.nav {
+    line-height: 3em;
+}
+.option {
+    display: inline;
+    margin-left: 5vw;
+    font-weight: normal;
+
 }
 
 
