@@ -7,6 +7,11 @@ body {
     overflow-x: hidden;
     scroll-behavior: smooth;
     background: rgb(162, 168, 168);
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+::-webkit-scrollbar {
+    display: none;
 }
 h1 {
     color: white;
@@ -73,7 +78,6 @@ a {
     height: 3em;
     display: inline;
     /* width: 3em; */
-    border: 2px solid white;
     margin-right: 1vw;
 }
 .name {
