@@ -101,11 +101,32 @@ a {
 main {
     margin-top: 3em;
     margin-bottom: 3em;
+    margin-left: 6vw;
+    margin-right: 6vw;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-column: 2 / 12;
 }
+
 .gaelimg {
     margin: auto auto auto auto;
     border-radius: 100em;
+    height: 25em;
+    width: 25em;
+}
+
+.big {
+    margin-top: 2em;
+    margin-left: 6vw;
+    margin-right: 6vw;
+}
+.big h1, .big h2 {
+    font-size: 64px;
+}
+.about-me {
+    font-size: 24px;
+}
+.para {
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
