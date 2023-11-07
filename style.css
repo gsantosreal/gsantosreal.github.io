@@ -1,0 +1,161 @@
+/* Body */
+body {
+    padding: 0px;
+    margin: 3vw 0 3vw 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    background: rgb(162, 168, 168);
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+h1 {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 0;
+    text-decoration: underline;
+}
+h2 {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    margin: 0;
+}
+h3 {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: inherit;
+    margin: 0;
+}
+h4 {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+h5 {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+h6 {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+p, li {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+a {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    margin: 0;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    line-height: 3em;
+    margin-left: 6vw;
+    margin-right: 6vw;
+}
+.navbar a {
+    height: fit-content;
+    display: inline;
+}
+.navbar a img {
+    height: 3em;
+    display: inline;
+    /* width: 3em; */
+    margin-right: 1vw;
+}
+.name {
+    /* display: inline; */
+    font-size: 200%;
+}
+.nav {
+    margin-left: auto;
+    line-height: 3em;
+}
+.option {
+    display: inline;
+    margin-left: 5vw;
+    font-weight: normal;
+}
+
+/* Footer */
+footer {
+    margin-left: 6vw;
+    margin-right: 6vw;
+    display: flex;
+    flex-direction: row;
+}
+footer p {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.socials {
+    margin-left: auto;
+}
+.socials a {
+    margin-left: 5vw;
+}
+
+/* Home Page CSS */
+.big {
+    margin-top: 2em;
+    margin-left: 6vw;
+    margin-right: 6vw;
+}
+.big h1, .big h2 {
+    font-size: 64px;
+}
+main {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column: 2 / 12;
+}
+.gaelimg {
+    margin: auto auto auto auto;
+    border-radius: 100em;
+    width: 75%;
+}
+.about-me {
+    font-size: 24px;
+}
+.para {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+/* About Me Page CSS */
+.personality {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    margin-left: 6vw;
+    margin-right: 6vw;
+}
+.personality h3 {
+    font-size: 40px;
+}
+.personality p {
+    font-size: 24px;
+}
