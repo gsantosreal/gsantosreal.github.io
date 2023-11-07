@@ -19,6 +19,7 @@ h1 {
     font-size: 36px;
     font-weight: 900;
     margin: 0;
+    text-decoration: underline;
 }
 h2 {
     color: white;
@@ -96,6 +97,23 @@ a {
     font-weight: normal;
 }
 
+/* Footer */
+footer {
+    margin-left: 6vw;
+    margin-right: 6vw;
+    display: flex;
+    flex-direction: row;
+}
+footer p {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.socials {
+    margin-left: auto;
+}
+.socials a {
+    margin-left: 5vw;
+}
 
 /* Home Page CSS */
 .big {
@@ -128,19 +146,16 @@ main {
     margin-bottom: 1em;
 }
 
-footer {
+/* About Me Page CSS */
+.personality {
+    margin-top: 3em;
+    margin-bottom: 3em;
     margin-left: 6vw;
     margin-right: 6vw;
-    display: flex;
-    flex-direction: row;
 }
-footer p {
-    font-size: 16px;
-    color: rgba(255, 255, 255, 0.7);
+.personality h3 {
+    font-size: 40px;
 }
-.socials {
-    margin-left: auto;
-}
-.socials a {
-    margin-left: 5vw;
+.personality p {
+    font-size: 24px;
 }
