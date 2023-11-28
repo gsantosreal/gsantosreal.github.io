@@ -146,16 +146,13 @@ main {
     margin-bottom: 1em;
 }
 
-/* About Me Page CSS */
-.personality {
+/* Work Page CSS */
+.workmain {
     margin-top: 3em;
     margin-bottom: 3em;
     margin-left: 6vw;
     margin-right: 6vw;
-}
-.personality h3 {
-    font-size: 40px;
-}
-.personality p {
-    font-size: 24px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-column: 3 / 8;
 }
