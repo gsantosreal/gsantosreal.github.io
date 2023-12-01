@@ -147,9 +147,6 @@ main {
 }
 
 /* Work Page CSS */
-.workmain {
-    display: table-column;
-}
 .workimg {
     width: 50%;
 }
