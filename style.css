@@ -172,7 +172,9 @@ main {
     opacity: 1;
 }
 .overlay p {
-    margin: 50%;
+    margin: 45% 10% 55% 10%;
+    text-align: center;
+    line-height: 1.5em;
 }
 .container h2 {
     text-align: center;
