@@ -127,11 +127,11 @@ footer p {
 main {
     margin-top: 4em;
     margin-bottom: 3em;
-    margin-left: 6vw;
-    margin-right: 6vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-column: 2 / 12;
+    /* grid-column: 2 / 12; */
 }
 .gaelimg {
     margin: auto auto auto auto;
@@ -147,17 +147,20 @@ main {
 }
 
 /* Work Page CSS */
+.workmain {
+    grid-template-columns: 25% 25% 25% 25%;
+}
 .work {
     position: relative;
     margin: 3em auto 3em auto;
     display: flex;
-    width: 80%;
+    width: 92%;
 }
 .workimg {
     display: block;
     width: 100%;
     height: auto;
-    border-radius: 100px;
+    border-radius: 50px;
 }
 .overlay {
     position: absolute;
@@ -166,13 +169,13 @@ main {
     opacity: 0;
     transition: 0.5s ease;
     background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 100px;
+    border-radius: 50px;
 }
 .overlay:hover {
     opacity: 1;
 }
-.overlay p, .overlay a {
-    margin: 8em 10% 55% 10%;
+.overlay p {
+    margin: 1em 10% 55% 10%;
     text-align: center;
     line-height: 2em;
     font-size: 18px;
@@ -180,4 +183,7 @@ main {
 .container h2 {
     text-align: center;
     margin-top: 1em;
+}
+.projectsmain {
+    grid-template-columns: 25% 25% 25% 25%;
 }
