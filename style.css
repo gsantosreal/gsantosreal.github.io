@@ -1,7 +1,9 @@
 /* Body */
 body {
-    padding: 0px;
-    margin: 3vw auto 3vw auto;
+    padding: 10px 10px 10px 10px;
+    margin: 1vw auto 1vw auto;
+    border-top: 40px white solid;
+    border-bottom: 40px white solid;
     max-width: 1400px;
     overflow-x: hidden;
     scroll-behavior: smooth;
@@ -15,7 +17,7 @@ body {
 h1 {
     color: white;
     font-family: 'Inter', sans-serif;
-    font-size: 36px;
+    font-size: 56px;
     font-weight: 900;
     margin: 0;
     text-decoration: underline;
@@ -23,7 +25,7 @@ h1 {
 h2 {
     color: white;
     font-family: 'Inter', sans-serif;
-    font-size: 36px;
+    font-size: 48px;
     font-weight: 500;
     margin: 0;
 }
@@ -56,6 +58,7 @@ p, li {
     color: white;
     font-family: 'Inter', sans-serif;
     margin: 0;
+    font-size: 24px;
 }
 a {
     color: white;
@@ -99,6 +102,7 @@ footer {
     flex-direction: row;
 }
 footer p {
+    font-size: 18px;
     color: rgba(255, 255, 255, 0.7);
 }
 .socials {
@@ -115,18 +119,19 @@ footer p {
 /* Home Page CSS */
 .big {
     margin-top: 2em;
+    text-align: center;
 }
 main {
     margin-top: 2em;
     margin-bottom: 2em;
     display: grid;
-    grid-template-columns: 100%;
+    grid-template-columns: 50% 50%;
     /* grid-column: 2 / 12; */
 }
 .gaelimg {
     margin: auto auto auto auto;
     border-radius: 100em;
-    width: 15em;
+    width: 20em;
 }
 .para {
     margin-top: 1em;
