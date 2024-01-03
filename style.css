@@ -8,7 +8,7 @@ body {
     max-width: 1400px;
     overflow-x: hidden;
     scroll-behavior: smooth;
-    background: rgb(162, 168, 168);
+    background: rgb(39, 39, 39);
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
@@ -120,7 +120,7 @@ footer p {
 
 /* --------Home Page CSS-------- */
 .big {
-    margin-top: 2em;
+    margin-top: 1.5em;
     text-align: center;
 }
 main {
