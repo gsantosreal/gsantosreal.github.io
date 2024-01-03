@@ -1,9 +1,10 @@
-/* Body */
+/* --------Body-------- */
 body {
     padding: 10px 10px 10px 10px;
     margin: 1vw auto 1vw auto;
     border-top: 40px white solid;
     border-bottom: 40px white solid;
+    width: fit-content;
     max-width: 1400px;
     overflow-x: hidden;
     scroll-behavior: smooth;
@@ -67,7 +68,8 @@ a {
     margin: 0;
 }
 
-/* Navigation Bar */
+
+/* --------Navigation Bar-------- */
 .navbar {
     display: flex;
     flex-direction: row;
@@ -96,7 +98,7 @@ a {
     font-weight: normal;
 }
 
-/* Footer */
+/* --------Footer-------- */
 footer {
     display: flex;
     flex-direction: row;
@@ -116,7 +118,7 @@ footer p {
     margin-left: 1.5vw;
 }
 
-/* Home Page CSS */
+/* --------Home Page CSS-------- */
 .big {
     margin-top: 2em;
     text-align: center;
@@ -130,15 +132,14 @@ main {
 }
 .gaelimg {
     margin: auto auto auto auto;
-    border-radius: 100em;
-    width: 20em;
+    border-radius: 10em;
+    width: 25em;
 }
 .para {
     margin-top: 1em;
     margin-bottom: 1em;
 }
-
-/* Work Page CSS */
+/* --------Work Page CSS-------- */
 .work {
     position: relative;
     margin: 3em auto 3em auto;
@@ -171,4 +172,40 @@ main {
 .container h2 {
     text-align: center;
     margin-top: 1em;
+}
+
+/* --------Optimization-------- */
+@media screen and (max-width: 1060px) {
+    h1 {
+        font-size: 48px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    h4 {
+        font-size: 16px;
+    }
+    h5 {
+        font-size: 14px;
+    }
+    h6 {
+        font-size: 14px;
+    }
+    p, li {
+        font-size: 20px;
+    }
+    .gaelimg {
+        width: 20em;
+    }
+}
+@media screen and (max-width: 700px) {
+    main {
+        grid-template-columns: 100%;
+    }
+    .gaelimg {
+        width: 18em;
+    }
 }

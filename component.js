@@ -9,6 +9,9 @@ class MyNavbar extends HTMLElement {
                     <a href="index.html">Home</a>
                 </h5>
                 <h5 class="option">
+                    <a href="aboutme.html">About Me</a>
+                </h5>
+                <h5 class="option">
                     <a href="work.html">Work</a>
                 </h5>
                 <h5 class="option">
