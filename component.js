@@ -3,7 +3,7 @@ class MyNavbar extends HTMLElement {
         this.innerHTML = `
         <div class="navbar">
             <a href="index.html"><img src="images/signature.png"></a>
-            <h3 class="name">Gael Santos</h3>
+            <h4 class="name">Gael Santos</h4>
             <nav class="nav">
                 <h5 class="option">
                     <a href="index.html">Home</a>
