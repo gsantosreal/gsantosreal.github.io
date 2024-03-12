@@ -12,7 +12,7 @@ class MyNavbar extends HTMLElement {
                     <a href="work.html">Work</a>
                 </h5>
                 <h5 class="option">
-                    <a href="Gael Santos - Resume.pdf" target="_blank">Resume</a>
+                    <a href="Gael Santos Rodriguez - Resume.pdf" target="_blank">Resume</a>
                 </h5>
             </nav>
         </div>
