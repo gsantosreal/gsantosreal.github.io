@@ -1,11 +1,11 @@
 /* --------Body-------- */
 body {
-    padding: 10px 10px 10px 10px;
-    margin: 1vw auto 1vw auto;
+    padding: 0;
+    margin: 0;
     /* border-top: 40px white solid; */
     /* border-bottom: 40px white solid; */
-    width: fit-content;
-    max-width: 1600px;
+    width: 100%;
+    max-width: 100%;
     overflow-x: hidden;
     scroll-behavior: smooth;
     background: rgb(39, 39, 39);
@@ -78,7 +78,9 @@ a {
 
 /* --------Navigation Bar-------- */
 .navbar {
+    max-width: 100%;
     display: flex;
+    background-color: rgb(253, 155, 17);
     flex-direction: row;
     line-height: 3em;
 }
@@ -131,16 +133,15 @@ footer p {
     text-align: center;
 }
 main {
-    margin-top: 2em;
-    margin-bottom: 2em;
+    margin: 0;
     display: grid;
     grid-template-columns: 50% 50%;
     /* grid-column: 2 / 12; */
 }
 .gaelimg {
-    margin: auto auto auto auto;
-    border-radius: 10em;
-    width: 25em;
+    margin: 0;
+    /* border-radius: 10em; */
+    width: 100%;
 }
 .para {
     margin-top: 1em;
