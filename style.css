@@ -137,7 +137,8 @@ footer p {
 
 /* --------Home Page CSS-------- */
 .big {
-    margin-top: 10em;
+    margin-top: 15em;
+    margin-left: 5em;
     /* text-align: center; */
 }
 main {
@@ -148,7 +149,6 @@ main {
 }
 .hmain {
     margin: 0;
-    height: 45vw;
     overflow-y: hidden;
     display: grid;
     grid-template-columns: 50% 50%;
@@ -158,6 +158,9 @@ main {
     margin: 0;
     /* border-radius: 10em; */
     width: 100%;
+    height: 44vw;
+    object-fit: cover;
+    object-position: 0 0%;
 }
 .para {
     margin-top: 1em;
