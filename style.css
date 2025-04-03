@@ -10,7 +10,8 @@ body {
     scroll-behavior: smooth;
     /* background: rgb(39, 39, 39); */
     background: rgb(0,0,0);
-    background: linear-gradient(125deg, rgba(0,0,0,1) 10%, rgba(143,82,0,1) 100%);
+    /* background: linear-gradient(125deg, rgba(0,0,0,1) 10%, rgba(143,82,0,1) 100%); */
+    background: linear-gradient(125deg, rgba(0,0,0,1) 10%, rgba(60,0,70,1) 45%, rgba(157,90,0,1) 100%);
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
