@@ -8,7 +8,9 @@ body {
     max-width: 100%;
     overflow-x: hidden;
     scroll-behavior: smooth;
-    background: rgb(39, 39, 39);
+    /* background: rgb(39, 39, 39); */
+    background: rgb(0,0,0);
+    background: linear-gradient(125deg, rgba(0,0,0,1) 10%, rgba(143,82,0,1) 100%);
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
@@ -24,15 +26,14 @@ body {
 h1 {
     color: white;
     font-family: 'Inter', sans-serif;
-    font-size: 56px;
+    font-size: 86px;
     font-weight: 900;
     margin: 0;
-    text-decoration: underline;
 }
 h2 {
     color: white;
     font-family: 'Inter', sans-serif;
-    font-size: 48px;
+    font-size: 72px;
     font-weight: 500;
     margin: 0;
 }
@@ -79,10 +80,9 @@ a {
 /* --------Navigation Bar-------- */
 .navbar {
     max-width: 100%;
+    margin: 1.5em 2em 0 2em;
     display: flex;
-    background-color: rgb(253, 155, 17);
     flex-direction: row;
-    line-height: 3em;
 }
 .navbar a {
     height: fit-content;
@@ -93,6 +93,7 @@ a {
     display: inline;
     /* width: 3em; */
     margin-right: 1vw;
+    margin-left: 1vw;
 }
 .name {
     display: none;
@@ -100,20 +101,26 @@ a {
 .nav {
     margin-left: auto;
     line-height: 3em;
+    border-bottom: 1px white solid;
 }
 .option {
     display: inline;
-    margin-left: 5vw;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
     font-weight: normal;
 }
 
 /* --------Footer-------- */
 footer {
     display: flex;
+    margin-top: 1em;
+    padding: 1em 1em 1em 1em;
+    border-top: 1px white solid;
     flex-direction: row;
 }
 footer p {
     font-size: 18px;
+    margin-left: 2em;
     color: rgba(255, 255, 255, 0.7);
 }
 .socials {
@@ -124,16 +131,25 @@ footer p {
     margin-left: auto;
 }
 .socials img {
-    margin-left: 1.5vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
 }
 
 /* --------Home Page CSS-------- */
 .big {
-    margin-top: 1.5em;
-    text-align: center;
+    margin-top: 10em;
+    /* text-align: center; */
 }
 main {
     margin: 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* grid-column: 2 / 12; */
+}
+.hmain {
+    margin: 0;
+    height: 45vw;
+    overflow-y: hidden;
     display: grid;
     grid-template-columns: 50% 50%;
     /* grid-column: 2 / 12; */
