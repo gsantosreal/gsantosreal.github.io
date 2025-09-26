@@ -1,17 +1,21 @@
 /* --------Body-------- */
 body {
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
     /* border-top: 40px white solid; */
     /* border-bottom: 40px white solid; */
-    width: 100%;
+    width: 85%;
     max-width: 100%;
+    min-height: 100vh;
     overflow-x: hidden;
+    overflow-y: auto;
     scroll-behavior: smooth;
     /* background: rgb(39, 39, 39); */
     background: rgb(0,0,0);
     /* background: linear-gradient(125deg, rgba(0,0,0,1) 10%, rgba(143,82,0,1) 100%); */
-    background: linear-gradient(125deg, rgba(0,0,0,1) 10%, rgba(60,0,70,1) 45%, rgba(157,90,0,1) 100%);
+    background: linear-gradient(125deg, rgba(0,0,0,1) 0%, rgba(60,0,70,1) 50%, rgba(157,90,0,1) 100%);
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
@@ -28,7 +32,7 @@ h1 {
     color: white;
     font-family: 'Inter', sans-serif;
     font-size: 86px;
-    font-weight: 900;
+    font-weight: 600;
     margin: 0;
 }
 h2 {
@@ -42,6 +46,7 @@ h3 {
     color: white;
     font-family: 'Inter', sans-serif;
     font-size: 36px;
+    font-weight: 400;
     line-height: inherit;
     margin: 0;
 }
@@ -68,7 +73,7 @@ p, li {
     color: white;
     font-family: 'Inter', sans-serif;
     margin: 0;
-    font-size: 24px;
+    font-size: 22px;
 }
 a {
     color: white;
@@ -81,7 +86,7 @@ a {
 /* --------Navigation Bar-------- */
 .navbar {
     max-width: 100%;
-    margin: 1.5em 2em 0 2em;
+    margin: 1em 2em 1em 2em;
     display: flex;
     flex-direction: row;
 }
@@ -115,7 +120,7 @@ a {
 footer {
     display: flex;
     margin-top: 1em;
-    padding: 1em 1em 1em 1em;
+    padding: 1.5em 1em 1em 1em;
     border-top: 1px white solid;
     flex-direction: row;
 }
@@ -150,22 +155,29 @@ main {
 }
 .hmain {
     margin: 0;
+    margin-bottom: 3em;
     overflow-y: hidden;
-    display: grid;
-    grid-template-columns: 50% 50%;
     /* grid-column: 2 / 12; */
 }
 .gaelimg {
     margin: 0;
     border-radius: 100em;
-    width: 100%;
-    height: 44vw;
+    width: 45vw;
+    height: 80vh;
     object-fit: cover;
     object-position: 0 0%;
 }
 .para {
-    margin: 2em 2em 2em 2em;
+    margin: 1em 2em 1em 2em;
     line-height: 2em;
+}
+/* --------About Me Page CSS-------- */
+.amain {
+    margin: 0;
+    margin-bottom: 3em;
+    overflow-y: hidden;
+    grid-template-columns: 70% 30%;
+    /* grid-column: 2 / 12; */
 }
 /* --------Work Page CSS-------- */
 .work {
@@ -193,7 +205,9 @@ main {
     opacity: 1;
 }
 .overlay p {
-    margin: 1em 1em 55% 1em;
+    height: 50%;
+    font-size: 22px;
+    padding: 3em 1em 0 1em;
     text-align: center;
     line-height: 2em;
 }
@@ -202,6 +216,12 @@ main {
 }
 .projectsmain {
     grid-template-columns: 33.3% 33.3% 33.3%;
+}
+.projectsmain .container {
+    padding: 0 2em 0 2em;
+}
+.container {
+    padding: 0 7em 0 7em;
 }
 .container h3 {
     text-align: center;
