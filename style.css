@@ -12,16 +12,14 @@ body {
     overflow-x: hidden;
     overflow-y: auto;
     scroll-behavior: smooth;
-    /* background: rgb(39, 39, 39); */
     background: rgb(0,0,0);
-    /* background: linear-gradient(125deg, rgba(0,0,0,1) 10%, rgba(143,82,0,1) 100%); */
     background: linear-gradient(125deg, rgba(0,0,0,1) 0%, rgba(60,0,70,1) 50%, rgba(157,90,0,1) 100%);
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     display: none;
-}
+} */
 ::selection {
     background: rgba(248, 248, 248, 0.4);
   }
@@ -86,7 +84,7 @@ a {
 /* --------Navigation Bar-------- */
 .navbar {
     max-width: 100%;
-    margin: 1em 2em 1em 2em;
+    margin: 1.2em 2em 1em 2em;
     display: flex;
     flex-direction: row;
 }
@@ -144,7 +142,7 @@ footer p {
 /* --------Home Page CSS-------- */
 .big {
     margin-top: 15em;
-    margin-left: 5em;
+    margin-left: 10em;
     /* text-align: center; */
 }
 main {
@@ -154,21 +152,21 @@ main {
     /* grid-column: 2 / 12; */
 }
 .hmain {
-    margin: 0;
-    margin-bottom: 3em;
+    margin: 1.5em 3em 1em 3em;
     overflow-y: hidden;
     /* grid-column: 2 / 12; */
 }
 .gaelimg {
     margin: 0;
-    border-radius: 100em;
-    width: 45vw;
-    height: 80vh;
-    object-fit: cover;
-    object-position: 0 0%;
+    border-radius: 60%;
+    border: 2px solid white;
+    width: 97%;
+    height: 97%;
+    /* object-fit: cover; */
+    /* object-position: 0 0%; */
 }
 .para {
-    margin: 1em 2em 1em 2em;
+    margin: 1em 2.5em 1.2em 2.5em;
     line-height: 2em;
 }
 /* --------About Me Page CSS-------- */
